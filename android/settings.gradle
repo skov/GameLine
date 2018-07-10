@@ -1,0 +1,3 @@
+rootProject.name = 'GameLine'
+
+include ':app'

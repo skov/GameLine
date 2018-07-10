@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/ReactNativePermissions.m \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/ReactNativePermissions.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/KatiaChumakova/GameLine/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPLocation.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/RCTConvert+RNPStatus.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPBluetooth.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPNotification.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPAudioVideo.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPEvent.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPPhoto.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPContacts.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPBackgroundRefresh.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPSpeechRecognition.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPMediaLibrary.h \
+  /Users/KatiaChumakova/GameLine/node_modules/react-native-permissions/ios/Permissions/RNPMotion.h

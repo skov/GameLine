@@ -1,0 +1,106 @@
+var OattemptsFHGoals = 0;
+var OattemptsSHGoals = 0;
+var OattemptsETGoals = 0;
+
+var OattemptsFHBlocks = 0;
+var OattemptsSHBlocks = 0;
+var OattemptsETBlocks = 0;
+
+var OattemptsFHSaves = 0;
+var OattemptsSHSaves = 0;
+var OattemptsETSaves = 0;
+
+var OattemptsFHMisses = 0;
+var OattemptsSHMisses = 0;
+var OattemptsETMisses = 0;
+
+var OthrowSel = [...this.state.OthrowSel];
+var OthrowSelGoals = [...this.state.OthrowSelGoals];
+var OhitSel = [...this.state.OhitSel];
+var OhitSelGoals = [...this.state.OhitSelGoals];
+
+_.each(this.state.oppActions, function(userObject) {
+  OthrowSel[userObject.throwSelector-1]++;
+  OhitSel[userObject.hitSelector-1]++;
+  if (userObject.outcome == 'goal'){
+    OthrowSelGoals[userObject.throwSelector-1]++;
+    OhitSelGoals[userObject.hitSelector-1]++;
+    if (userObject.half == 'First Half'){
+      OattemptsFHGoals +=1;
+    } else if (userObject.half == 'Second Half'){
+      OattemptsSHGoals +=1;
+    } else if (userObject.half == 'Extra Time'){
+      OattemptsETGoals +=1;
+    }
+  } else if (userObject.outcome == 'block'){
+    if (userObject.half == 'First Half'){
+      OattemptsFHBlocks +=1;
+    } else if (userObject.half == 'Second Half'){
+      OattemptsSHBlocks +=1;
+    } else if (userObject.half == 'Extra Time'){
+      OattemptsETBlocks +=1;
+    }
+  } else if (userObject.outcome == 'save'){
+    if (userObject.half == 'First Half'){
+      OattemptsFHSaves +=1;
+    } else if (userObject.half == 'Second Half'){
+      OattemptsSHSaves +=1;
+    } else if (userObject.half == 'Extra Time'){
+      OattemptsETSaves +=1;
+    }
+  } else if (userObject.outcome == 'miss'){
+    if (userObject.half == 'First Half'){
+      OattemptsFHMisses +=1;
+    } else if (userObject.half == 'Second Half'){
+      OattemptsSHMisses +=1;
+    } else if (userObject.half == 'Extra Time'){
+      OattemptsETMisses +=1;
+    }
+  }
+});
+
+var OattemptsFH = OattemptsFHGoals + OattemptsFHBlocks + OattemptsFHSaves + OattemptsFHMisses;
+var OattemptsSH = OattemptsSHGoals + OattemptsSHBlocks + OattemptsSHSaves + OattemptsSHMisses;
+var OattemptsET = OattemptsETGoals + OattemptsETBlocks + OattemptsETSaves + OattemptsETMisses;
+
+
+var totalOA = OattemptsFH + OattemptsSH + OattemptsET;
+var totalOGoals = OattemptsFHGoals + OattemptsSHGoals + OattemptsETGoals;
+var totalOSaves = OattemptsFHSaves + OattemptsSHSaves + OattemptsETSaves;
+var totalOMisses = OattemptsFHMisses + OattemptsSHMisses + OattemptsETMisses;
+var totalOBlocks = OattemptsFHBlocks + OattemptsSHBlocks + OattemptsETBlocks;
+
+
+this.setState({
+totalOAttempts : totalOA,
+totalOGoals : totalOGoals,
+totalOSaves : totalOSaves,
+totalOMisses : totalOMisses,
+totalOBlocks : totalOBlocks,
+
+OattemptsFH: OattemptsFH,
+OattemptsSH: OattemptsSH,
+OattemptsET: OattemptsET,
+
+OattemptsFHGoals : OattemptsFHGoals,
+OattemptsSHGoals : OattemptsSHGoals,
+OattemptsETGoals : OattemptsETGoals,
+
+OattemptsFHBlocks : OattemptsFHBlocks,
+OattemptsSHBlocks : OattemptsSHBlocks,
+OattemptsETBlocks : OattemptsETBlocks,
+
+OattemptsFHSaves : OattemptsFHSaves,
+OattemptsSHSaves : OattemptsSHSaves,
+OattemptsETSaves : OattemptsETSaves,
+
+OattemptsFHMisses : OattemptsFHMisses,
+OattemptsSHMisses : OattemptsSHMisses,
+OattemptsETMisses : OattemptsETMisses,
+
+
+OthrowSel:OthrowSel,
+OthrowSelGoals:OthrowSelGoals,
+OhitSel:OhitSel,
+OhitSelGoals:OhitSelGoals,
+})
